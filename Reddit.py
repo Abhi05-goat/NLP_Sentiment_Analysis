@@ -15,8 +15,8 @@ import numpy as np
 
 #authenticating usage of the reddit API
 reddit = praw.Reddit(
-    client_id = 'AcMQ2MCSOfbrnH_eytdelw',
-    client_secret = 'DLBxbdIj_9RX9anTTodhRV5-QJeoVg',
+    client_id = 'XXXXX',
+    client_secret = 'XXXXX',
     user_agent = 'my-app by Abhivanth',
     username = 'Effective_Insect9336',
     password = ''
