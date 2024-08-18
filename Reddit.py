@@ -290,8 +290,6 @@ f1 = f1_score(y_test,y_pred,average = 'macro')
 
 
 
-# DR: ₹12,904,787.38. 
-# CR: ₹13,137,469.00.
 
 
     
