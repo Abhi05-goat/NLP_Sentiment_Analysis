@@ -61,10 +61,9 @@ reddit = praw.Reddit(
 
 ## Model Building
 ### Models Tested
-- **Naive Bayes**: Accuracy = TBD
-- **Random Forest**: Accuracy = TBD
-- **Decision Tree**: Accuracy = TBD
-- **Logistic Regression**: Accuracy = TBD
+- **Naive Bayes**: Accuracy = #73% accuracy
+- **Random Forest**: Accuracy = 77% accuracy
+- **Decision Tree**: Accuracy = 73.5% accuracy
 
 ### Metrics
 - **Confusion Matrix**: Evaluates model performance
