@@ -257,15 +257,15 @@ X_train,X_test,y_train,y_test = train_test_split(X,y,test_size = 0.2,random_stat
 
 
 
-#from sklearn.naive_bayes import GaussianNB
-#classifier = GaussianNB()
-#classifier.fit(X_train,y_train)
-#y_pred = classifier.predict(X_test)                   #73% accuracy
+from sklearn.naive_bayes import GaussianNB
+classifier = GaussianNB()
+classifier.fit(X_train,y_train)
+y_pred = classifier.predict(X_test)                   #73% accuracy
 
-#from sklearn.ensemble import RandomForestClassifier
-#classifier = RandomForestClassifier(n_estimators=500)
-#classifier.fit(X_train,y_train)
-#y_pred = classifier.predict(X_test)                     #77% accuracy
+from sklearn.ensemble import RandomForestClassifier
+classifier = RandomForestClassifier(n_estimators=500)
+classifier.fit(X_train,y_train)
+y_pred = classifier.predict(X_test)                     #77% accuracy
 
 
 from sklearn.tree import DecisionTreeClassifier
@@ -273,11 +273,6 @@ classifier = DecisionTreeClassifier()
 classifier.fit(X_train,y_train)
 y_pred = classifier.predict(X_test)                     #73.5% accuracy
 
-
-#from sklearn.linear_model import LogisticRegression
-#classifier = LogisticRegression()
-#classifier.fit(X_train,y_train)
-#y_pred = classifier.predict(X_test) 
 
 from sklearn.metrics import confusion_matrix,f1_score
 cm = confusion_matrix(y_test,y_pred)
