@@ -115,4 +115,4 @@ This project explores public sentiment towards AI using Reddit posts. By collect
 Feel free to fork this repository and submit pull requests with improvements or additional features.
 
 ### Contact
-For any queries, reach out at [your_email@example.com](asivaprakash23@gmail.com).
+For any queries, reach out at [Email](asivaprakash23@gmail.com).
